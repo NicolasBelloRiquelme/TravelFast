@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    padding: 0%;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo del body*/
+body {
+    margin: 0;
+}
+
+/* Estilo del body*/
+body {
+    margin: 0;
+}
+
+/* Estilo de la barra de navegacion */
+nav {
+    background: #222222;
+    padding: 10px 40px 10px 70px;
+    border-left: none;
+    border-right: none;
+}
+
+/* Style the navigation bar links */
+nav ul { 
+    display: table;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 900px;
+}
+
+/* Estilo del Logo */
+nav .logo {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Posicion de los Enlaces */
+nav ul li{
+    padding: 0 40px;
+    display: table-cell;
+    font-weight: bold;
+    clear: both;
+}
+
+/* Estilo de los Enlaces */
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Color de los enlaces en hover */
+nav ul li:hover {
+    background: black;
+}
+
+nav ul li a:hover {
+    color: #ff4d4d;
+}
+
+li {
+    display: table-cell;
+    width: 200px;
+}
+
+li.index {background: #3691be;}
+li.travels {background: #106288;}
+li.servicios {background: #0b4661;}
+li.forma {background: #093144;}
+
+/* Menu & Container */
+.container {
+    position: relative;
+    background: #fff;
+    width: 95%;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.menu ul {
+    list-style: none;
+    width: 100%;
+    display: table;
+}
+
+.menu ul li {
+    display: table-cell;
+    width: calc(30px * 5)
+}
+
+.menu ul li:hover{
+    background: black;
+}
+
+.menu ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.menu ul .todos {background: #3691be;}
+.menu ul .turismo {background: #106288;}
+.menu ul .trabajo {background: #0b4661;}
+.menu ul .estadia {background: #093144;}
+.menu ul .vacaciones {background: #022535;}
+
+/* Galeria  */
+.galeria {
+    padding: 20px;
+    margin: 20px 0 0 20px;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.galeria .title-img {
+    width: 100%;
+    border-top: 4px solid #46abdf;
+}
+
+.galeria .title-img h3 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0;
+    color: #636363;
+    font-weight: 300;
+}
+
+.galeria .box-img {
+    position: relative;
+    width: 90%;
+    background-color: #333;
+    margin: 10px 0 0 100px;
+    padding: 50px;
+    display: flex;
+}
+
+.galeria .box-img .image img {
+    width: 300px;
+}
+
+.galeria .box-img .text {
+    margin-left: 20px;
+}
+
+.galeria .box-img .text h4 {
+    font-size: 30px;
+}
+
+.galeria .box-img .text p {
+    display: flex;
+    font-size: 20px;
+}
+
+/* Pie */
+footer {
+    position: relative;
+    background: #303036;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 50%;
+    background: #f12020;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.center .content .fas {
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.center .content .fas:hover {
+    background: #f12020;
+}
+
+.center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone{
+    margin: 15px 0;
+}
+
+.right .content a {
+    color: whitesmoke;
+    background: #1a1a1a;
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.right .content a:hover {
+   background: #f12020; 
+}
+
+.bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.bottom center span{
+    color: #656565;
+}
+
+.bottom center a{
+    color: #f12020;
+    text-decoration: none;
+}
+
+.bottom center a:hover{
+    text-decoration: underline;
+}
+
+/* Responsive Code */
+@media screen and (max-width: 1514px) {
+    nav {
+        padding: 10px 40px 10px 0;
+    }   
+
+    nav ul {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 20px;
+        padding: 0 0 10px;
+    }
+
+    nav ul li {
+        max-width: 100%;
+        padding: 10px 20px 10px;
+        text-align: justify;
+        display: table-row;
+    }
+}
+
+@media screen and (max-width: 1188px) {
+
+    nav {
+        padding: 10px 40px 10px 0;
+    }   
+
+    nav ul {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 20px;
+        padding: 0 0 10px;
+    }
+
+    nav ul li {
+        max-width: 100%;
+        padding: 10px 20px 10px;
+        text-align: justify;
+        display: table-row;
+    }
+
+    .container .menu {
+        padding: 10px 40px 10px 0;
+    }
+
+    .container .menu ul {
+        flex-direction: column;
+        max-width: 100%;
+        margin-left: 20px;
+        padding: 0 0 10px;
+    }
+
+    .container .menu ul li {
+        max-width: 100%;
+        margin-top: 5px;
+        display: table-row;
+    }
+
+    .galeria {
+        max-width: 100%;
+    }
+
+    .galeria, .box-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-img, .image img{
+        max-width: 100%;
+    }
+
+    .box-img, .text {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .container{
+        max-width: 500px;
+    }
+
+    .galeria {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .galeria .box-img {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
