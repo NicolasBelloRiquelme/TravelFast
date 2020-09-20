@@ -357,23 +357,24 @@ footer {
 }
 
 /* Responsive Code */
-@media screen and (max-width: 1514px) {
-    nav {
+@media screen and (max-width: 1860px){
+    .navbar nav {
         padding: 10px 40px 10px 0;
     }   
 
-    nav ul {
+    .navbar nav ul {
         flex-direction: column;
-        max-width: 100%;
+        width: 100%;
         margin: 20px;
         padding: 0 0 10px;
+        
     }
 
-    nav ul li {
-        max-width: 100%;
+    .navbar nav ul li {
         padding: 10px 20px 10px;
         text-align: justify;
         display: table-row;
+        align-items: center;
     }
 }
 
