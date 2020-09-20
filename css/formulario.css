@@ -404,22 +404,22 @@ footer {
    background: #f12020; 
 }
 
-.bottom center{
-    padding: 5px;
+.bottom .copyright{
+    padding: 20px;
     font-size: 0.9375rem;
     background: #151515;
 }
 
-.bottom center span{
+.bottom .copyright span{
     color: #656565;
 }
 
-.bottom center a{
+.bottom .copyright a{
     color: #f12020;
     text-decoration: none;
 }
 
-.bottom center a:hover{
+.bottom .copyright a:hover{
     text-decoration: underline;
 }
 
