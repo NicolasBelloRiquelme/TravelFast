@@ -248,22 +248,14 @@ footer {
 }
 
 .bottom .copyright{
+    display: flex;
     padding: 20px;
     font-size: 0.9375rem;
     background: #151515;
 }
 
-.bottom .copyright span{
-    color: #656565;
-}
-
-.bottom .copyright a{
-    color: #f12020;
-    text-decoration: none;
-}
-
-.bottom .copyright a:hover{
-    text-decoration: underline;
+.bottom .copyright p {
+    margin-left: 20px;
 }
 
 /* Responsive Code */
